@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "738795810802",
+    "firebase_url": "https://last-attempt-da023.firebaseio.com",
+    "project_id": "last-attempt-da023",
+    "storage_bucket": "last-attempt-da023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738795810802:android:0c1b14f6939ea20601056b",
+        "android_client_info": {
+          "package_name": "com.example.last_attempt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738795810802-pv6qdupkv30chejknfnude73l5gcnsfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7OGqspbEwG84G4A58S9zhn6CEUO9rJfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738795810802-pv6qdupkv30chejknfnude73l5gcnsfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
