@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:last_attempt/services/auth.dart';
+import 'package:last_attempt/shared/constants.dart';
 
 class SignIn extends StatefulWidget {
   final Function toggleView;
@@ -44,6 +45,7 @@ class _SignInState extends State<SignIn> {
                 height: 20.0,
               ),
               TextFormField(
+                decoration: textInputDecoration.copyWith(hintText: 'Email'),
                 validator: (val) => val.isEmpty ? "Enter an email" : null,
                 onChanged: (val) {
                   setState(() {
@@ -55,6 +57,7 @@ class _SignInState extends State<SignIn> {
                 height: 20.0,
               ),
               TextFormField(
+                decoration: textInputDecoration.copyWith(hintText: 'Password'),
                 validator: (val) => val.length < 6
                     ? "Enter password longer than 6 chars"
                     : null,
